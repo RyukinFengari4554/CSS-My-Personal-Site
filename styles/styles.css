@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  color: #DAE1E7;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.top-container{
+  padding: 100px;
+  text-align: center;;
+  background-color: #142850;
+}
+.und{
+  text-decoration: underline;
+}
+.moon{
+  height: 300px;
+  width: auto;
+  position: absolute;
+  top:0;
+  right: 50px;
+
+}
+.allen{
+  height: 250px;
+  position: fixed;
+  left: 100px;
+}
+
+.middle-container{
+  height: 200px;
+  background-color: #27496D;
+}
+
+.bottom-container{
+  height: 200px;
+  background-color: #00909E;
+}
