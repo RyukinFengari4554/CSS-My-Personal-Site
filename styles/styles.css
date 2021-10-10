@@ -7,10 +7,27 @@ h1{
   font-family: 'Pacifico', cursive;
   font-size: 4rem;
 }
-h2{
+h2,h3{
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
   font-weight: bold;
+}
+h3{
+  font-size: 2rem;
+}
+p{
+  font-family: 'Shadows Into Light', cursive;
+  line-height: 2;
+}
+hr{
+  border-style: double none none none;
+  border-width: 10px;
+  width: 70%;
+  margin: 50px auto;
+  color: #142850;
+}
+a{
+  font-family: 'Shadows Into Light', cursive;
 }
 .allen{
   height: 250px;
@@ -38,11 +55,87 @@ h2{
 
 
 .middle-container{
-  height: 200px;
+  padding: 100px 0;
+  text-align: center;
   background-color: #27496D;
+}
+.profile{
+  margin: auto;
+  width: 30%;
+}
+.skill-row1{
+  margin: auto;
+  text-align: left;
+  width: 50%;
+}
+.gaming{
+  width: 30%;
+  float: right;
+  margin-left: 50px;
+}
+.skill-row2{
+  margin: auto;
+  text-align: left;
+  width: 50%;
+}
+.gardening{
+  width: 30%;
+  float: left;
+  margin-right: 50px;
+}
+
+.btn {
+   background: #142850;
+   background-image: -webkit-linear-gradient(top, #142850, #00909E);
+   background-image: -moz-linear-gradient(top, #142850, #00909E);
+   background-image: -ms-linear-gradient(top, #142850, #00909E);
+   background-image: -o-linear-gradient(top, #142850, #00909E);
+   background-image: -webkit-gradient(to bottom, #142850, #00909E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #DAE1E7;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 4px 0 #000000;
+   -moz-box-shadow: 1px 1px 4px 0 #000000;
+   box-shadow: 1px 1px 4px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #00909E 1px;
+   background: #021335;
+   background-image: -webkit-linear-gradient(top, #021335, #00909E);
+   background-image: -moz-linear-gradient(top, #021335, #00909E);
+   background-image: -ms-linear-gradient(top, #021335, #00909E);
+   background-image: -o-linear-gradient(top, #021335, #00909E);
+   background-image: -webkit-gradient(to bottom, #021335, #00909E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
 
 .bottom-container{
-  height: 200px;
   background-color: #00909E;
+  text-align: center;
+  padding: 40px;
+}
+.footer-link{
+  margin:0 30px;
+  text-decoration: none;
+  color: #DAE1E7;
+}
+.footer-link:hover{
+  color: #142850;
+}
+.credit{
+  margin-top: 50px;
+  color: #DAE1E7;
 }
